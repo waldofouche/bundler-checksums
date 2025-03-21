@@ -98,21 +98,21 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.4)
-    nokogiri (1.18.2-aarch64-linux-gnu)
+    nokogiri (1.18.4-aarch64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.2-aarch64-linux-musl)
+    nokogiri (1.18.4-aarch64-linux-musl)
       racc (~> 1.4)
-    nokogiri (1.18.2-arm-linux-gnu)
+    nokogiri (1.18.4-arm-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.2-arm-linux-musl)
+    nokogiri (1.18.4-arm-linux-musl)
       racc (~> 1.4)
-    nokogiri (1.18.2-arm64-darwin)
+    nokogiri (1.18.4-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.2-x86_64-darwin)
+    nokogiri (1.18.4-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.2-x86_64-linux-gnu)
+    nokogiri (1.18.4-x86_64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.2-x86_64-linux-musl)
+    nokogiri (1.18.4-x86_64-linux-musl)
       racc (~> 1.4)
     racc (1.8.1)
     rack (2.2.10)
@@ -168,7 +168,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  rails (~> 7.0.0)
+  rails
 
 CHECKSUMS
   actioncable (7.0.8.7) sha256=4034513841df2fd09dbbf38f37c1a00fc6c841122a8714e5d6916b8d6ce2f162
@@ -201,14 +201,14 @@ CHECKSUMS
   net-protocol (0.2.2) sha256=aa73e0cba6a125369de9837b8d8ef82a61849360eba0521900e2c3713aa162a8
   net-smtp (0.5.0) sha256=5fc0415e6ea1cc0b3dfea7270438ec22b278ca8d524986a3ae4e5ae8d087b42a
   nio4r (2.7.4) sha256=d95dee68e0bb251b8ff90ac3423a511e3b784124e5db7ff5f4813a220ae73ca9
-  nokogiri (1.18.2-aarch64-linux-gnu) sha256=74e0f9a7487a30a2957f46c5113d58f836436b033c9906e0bc6fee9d8cdafabf
-  nokogiri (1.18.2-aarch64-linux-musl) sha256=99bcea596a80eaee99f2bae2596275641ea688262c1da32b4e90db6159e86477
-  nokogiri (1.18.2-arm-linux-gnu) sha256=6fb0246b69f2c589a69254e82bc2a40aa238c4f977fd7903e283341a92935729
-  nokogiri (1.18.2-arm-linux-musl) sha256=dcdd4d10ed2743f0d8c887825700c3a8506aea1aa415917ac50ccc01597c51a3
-  nokogiri (1.18.2-arm64-darwin) sha256=8288ec7a296e2510ca9bd053c0c5989f11260f8c07bc3e9afbafa536f7077281
-  nokogiri (1.18.2-x86_64-darwin) sha256=7fca165e5ee87e9b6b3f1377180376afc0c8652ed2a3d761f472f0e3d3a1c651
-  nokogiri (1.18.2-x86_64-linux-gnu) sha256=9330ced4a976604865c2a76ce158e2bc608fa83999552e85a32ec06f85f427db
-  nokogiri (1.18.2-x86_64-linux-musl) sha256=1cd7786ed15c76958d6a8f9a864df6208fecd624c340eb4ed211fbea60328f02
+  nokogiri (1.18.4-aarch64-linux-gnu) sha256=8f2263cef9953ce09bd5293d76c9bbd3013d2f94d1cca67783dfe6635c529deb
+  nokogiri (1.18.4-aarch64-linux-musl) sha256=4e231f8ba3128cfc2ef0cc0bdc807d7ce71fc62cb6a78216e817be8631fe6a96
+  nokogiri (1.18.4-arm-linux-gnu) sha256=cc2945e2c19560a61a97737e6bd3b329edb1f82ca204d46a18e5e98ad0a550a6
+  nokogiri (1.18.4-arm-linux-musl) sha256=4fb7f44de0cd85abfa869e4cfb619410da174ebf9fbe26ae0caa65462b818bcb
+  nokogiri (1.18.4-arm64-darwin) sha256=73902663b23b1123282b9c0b6d9654b1fb286dfee8d65cb1f6029087b7f0d037
+  nokogiri (1.18.4-x86_64-darwin) sha256=e4776f58eea9b94d05caf8bf351e3c6aa1cce01edcc2ed530f3c302c13178965
+  nokogiri (1.18.4-x86_64-linux-gnu) sha256=b1c6407b346b88704e97a342a80acd4755175324e624da34d0c5cfdc8d34191e
+  nokogiri (1.18.4-x86_64-linux-musl) sha256=ea7c0356a70f3d2d0d76315b533877013d20368d5c9f437c38e0bd462c4844dc
   racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
   rack (2.2.10) sha256=e4a5ee3f8f2ba45614a4498114d6dc7da1c51a0f0dd810d891906ea71d3aa72b
   rack-test (2.2.0) sha256=005a36692c306ac0b4a9350355ee080fd09ddef1148a5f8b2ac636c720f5c463
